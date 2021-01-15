@@ -7,7 +7,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <a id="logo" href="/">
-          Capture
+          Seed to Tree
         </a>
       </h1>
       <ul>
@@ -50,11 +50,10 @@ const StyledNav = styled.nav`
   }
   #logo {
     font-size: 1.5rem;
-    font-family: "Lobster", cursive;
-    font-weight: lighter;
+    font-family: "Yusei Magic", sans-serif;
   }
   .is-active {
-    color: #23d997;
+    color: #10ac02;
   }
 `;
 

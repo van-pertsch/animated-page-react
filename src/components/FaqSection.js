@@ -14,7 +14,7 @@ const FaqSection = () => {
   return (
     <Faq variants={fade} animate={controls} initial="hidden" ref={element}>
       <h2>
-        Any Questions <span>FAQ</span>
+        <span>FAQ</span>
       </h2>
       <AnimateSharedLayout>
         <Toggle title="How do i start?">

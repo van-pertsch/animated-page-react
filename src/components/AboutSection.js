@@ -1,5 +1,5 @@
 import React from "react";
-import home1 from "../img/home1.png";
+import flower1 from "../img/flower1.png";
 //ANimations
 import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../animation";
@@ -18,11 +18,11 @@ const AboutSection = () => {
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-              your <span>dreams</span> come
+              your <span>plants</span> to
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>true</motion.h2>
+            <motion.h2 variants={titleAnim}>grow</motion.h2>
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
@@ -36,7 +36,7 @@ const AboutSection = () => {
           variants={photoAnim}
           initial="hidden"
           animate="show"
-          src={home1}
+          src={flower1}
           alt="camera guy"
         />
       </Image>
