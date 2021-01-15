@@ -14,15 +14,15 @@ const AboutSection = () => {
       <Description>
         <motion.div className="title">
           <Hide>
-            <motion.h2 variants={titleAnim}>We work to make</motion.h2>
+            <motion.h2 variants={titleAnim}>We work </motion.h2>
+          </Hide>
+          <Hide>
+            <motion.h2 variants={titleAnim}>to make your</motion.h2>
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-              your <span>plants</span> to
+              <span>plants</span> grow.
             </motion.h2>
-          </Hide>
-          <Hide>
-            <motion.h2 variants={titleAnim}>grow</motion.h2>
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
