@@ -77,7 +77,9 @@ const OurWork = () => {
 const StyledWork = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
-  padding: 5rem 10rem;
+  padding: 5rem 8rem;
+  display: flex;
+  justify-content: space-between;
 
   h2 {
     padding: 1rem 0rem;
@@ -86,7 +88,7 @@ const StyledWork = styled(motion.div)`
 `;
 
 const Movie = styled(motion.div)`
-  width: 100%;
+  width: 28%;
 
   padding-bottom: 10rem;
   .line {
