@@ -1,18 +1,15 @@
 //Import Images
-import athlete from "./img/athlete-small.png";
-import goodtimes from "./img/goodtimes-small.png";
-import theracer from "./img/theracer-small.png";
-import athlete2 from "./img/athlete2.png";
-import goodtimes2 from "./img/good-times2.jpg";
-import theracer2 from "./img/the-racer2.jpg";
+import plant from "./img/plant.png";
+import sunflower from "./img/sunflower.png";
+import flower3 from "./img/flower3.png";
 
 export const MovieState = () => {
   return [
     {
-      title: "The Athlete",
-      mainImg: athlete,
-      secondaryImg: athlete2,
-      url: "/work/the-athlete",
+      title: "The Plant",
+      mainImg: plant,
+
+      url: "/work/the-plant",
       awards: [
         {
           title: "Truly A masterpiece",
@@ -20,7 +17,7 @@ export const MovieState = () => {
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Fresh look on a pinkish plant.",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
@@ -32,10 +29,10 @@ export const MovieState = () => {
       ],
     },
     {
-      title: "Good Times",
-      mainImg: goodtimes,
-      url: "/work/good-times",
-      secondaryImg: goodtimes2,
+      title: "Sunflower",
+      mainImg: sunflower,
+      url: "/work/sunflower",
+
       awards: [
         {
           title: "Truly A masterpiece",
@@ -43,7 +40,7 @@ export const MovieState = () => {
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Fresh look on a yellow one.",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
@@ -55,10 +52,10 @@ export const MovieState = () => {
       ],
     },
     {
-      title: "The Racer",
-      mainImg: theracer,
-      url: "/work/the-racer",
-      secondaryImg: theracer2,
+      title: "The Troll",
+      mainImg: flower3,
+      url: "/work/the-troll",
+
       awards: [
         {
           title: "Truly A masterpiece",
@@ -66,7 +63,7 @@ export const MovieState = () => {
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Fresh look on a troll.",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },

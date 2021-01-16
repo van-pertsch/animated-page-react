@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import athlete from "../img/athlete-small.png";
-import goodtimes from "../img/goodtimes-small.png";
-import theracer from "../img/theracer-small.png";
+import plant from "../img/plant.png";
+import sunflower from "../img/sunflower.png";
+import flower3 from "../img/flower3.png";
 
 //ANimations
 import { motion } from "framer-motion";
@@ -36,7 +36,7 @@ const OurWork = () => {
       </motion.div>
       <Movie>
         <motion.h2 variants={fade} initial="hidden" animate="show">
-          The AThlete
+          The Plant
         </motion.h2>
         <motion.div
           variants={lineAnim}
@@ -44,30 +44,30 @@ const OurWork = () => {
           animate="show"
           className="line"
         ></motion.div>
-        <Link to="/work/the-athlete">
+        <Link to="/work/the-plant">
           <Hide>
             <motion.img
               variants={photoAnim}
               initial="hidden"
               animate="show"
-              src={athlete}
-              alt="athlete"
+              src={plant}
+              alt="plant"
             />
           </Hide>
         </Link>
       </Movie>
       <Movie>
-        <h2>The Goodtimes</h2>
+        <h2>The Sunflower</h2>
         <div className="line"></div>
-        <Link to="/work/good-times">
-          <img src={goodtimes} alt="goodtimes" />
+        <Link to="/work/sunflower">
+          <img src={sunflower} alt="sunflower" />
         </Link>
       </Movie>
       <Movie>
-        <h2>The racer</h2>
+        <h2>The Troll</h2>
         <div className="line"></div>
-        <Link to="/work/the-racer">
-          <img src={theracer} alt="theracer" />
+        <Link to="/work/the-troll">
+          <img src={flower3} alt="Troll" />
         </Link>
       </Movie>
     </StyledWork>
@@ -91,13 +91,13 @@ const Movie = styled(motion.div)`
   padding-bottom: 10rem;
   .line {
     height: 0.5rem;
-    background: #23d997;
+    background: #10ac02;
     margin-bottom: 3rem;
   }
   img {
-    width: 100%;
+    width: auto;
     height: 70vh;
-    object-fit: cover;
+    object-fit: fill;
   }
 `;
 const Hide = styled.div`

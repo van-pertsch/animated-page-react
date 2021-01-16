@@ -46,9 +46,6 @@ const MovieDetail = () => {
               />
             ))}
           </Awards>
-          <ImageDisplay>
-            <img src={movie.secondaryImg} alt="" />
-          </ImageDisplay>
         </Details>
       )}
     </>
@@ -79,9 +76,11 @@ const Headline = styled.div`
     margin-right: 35%;
   }
   img {
-    width: 100%;
+    width: auto;
     height: 70vh;
-    object-fit: cover;
+    object-fit: fill;
+    margin-left: 40%;
+    margin-right: auto;
   }
 `;
 const Awards = styled.div`
