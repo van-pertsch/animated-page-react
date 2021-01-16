@@ -3,7 +3,10 @@ import flower1 from "../img/flower1.png";
 //ANimations
 import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../animation";
-import Wave from "./Wave";
+
+import LineOne from "./LineOne";
+import LineTwo from "./LineTwo";
+import LineThree from "./LineThree";
 
 //Style
 import { SectionStyle, Description, Image, Hide } from "../styles";
@@ -40,7 +43,10 @@ const AboutSection = () => {
           alt="camera guy"
         />
       </Image>
-      <Wave />
+
+      <LineOne />
+      <LineTwo />
+      <LineThree />
     </SectionStyle>
   );
 };

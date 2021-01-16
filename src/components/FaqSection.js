@@ -35,7 +35,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-        <Toggle title="Wher can i get support?">
+        <Toggle title="Where can i get support?">
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
