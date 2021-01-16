@@ -36,7 +36,7 @@ const OurWork = () => {
       </motion.div>
       <Movie>
         <motion.h2 variants={fade} initial="hidden" animate="show">
-          The Plant
+          A Plant
         </motion.h2>
         <motion.div
           variants={lineAnim}
@@ -57,14 +57,14 @@ const OurWork = () => {
         </Link>
       </Movie>
       <Movie>
-        <h2>The Sunflower</h2>
+        <h2>Sunflower</h2>
         <div className="line"></div>
         <Link to="/work/sunflower">
           <img src={sunflower} alt="sunflower" />
         </Link>
       </Movie>
       <Movie>
-        <h2>The Troll</h2>
+        <h2>Troll</h2>
         <div className="line"></div>
         <Link to="/work/the-troll">
           <img src={flower3} alt="Troll" />
